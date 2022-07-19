@@ -1,0 +1,5 @@
+<h2> <u>Titre:</u> <%= @task.title %> </h2>
+<p><u><em>description:</em></u> <%= @task.details %></p>
+<p>Completed ? <strong><%= @task.completed %></strong></p>
+
+<%= link_to "Back to tasks index", tasks_path %>
